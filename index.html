@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Arbatpinigiai</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="antraste">
+            <h5>ARBATPINIGIŲ SKAIČIUOKLĖ</h5>
+        </div>
+        <div class="virsus">
+            <form name="input">
+                <p>
+                    <label for="saskaita">Sąskaitos suma</label><br>
+                    <input class="langelis" type="number" id="saskaita">Eur
+                </p>
+                <p><label for="aptarnavimas">Įvertinkite aptarnavimą:</label><br>
+                    <select id="aptarnavimas" class="langelis">
+                        <option value="">---Pasirinkite---</option>
+                        <option value="30">30% - Fantastika!</option>
+                        <option value="20">20% - Labai geras</option>
+                        <option value="10">10% - OK</option>
+                        <option value="5">5% - Blogas</option>
+                        <option value="1">1% - Siaubingas</option>
+
+                    </select>
+                </p>
+                <p>
+                    <label for="zmones">Žmonių skaičius</label><br>
+                    <input class="langelis" type="number" id="zmones">
+                </p>
+<div class="btn">
+    <p>
+        <button type="submit">Skaičiuok!</button>
+    </p>
+
+</div>
+
+
+
+            </form>
+        </div>
+        <Div id=rezultatas class="rezultatas nerodyti">
+            <p>ARBATPINIGIAI</p>
+            <p id=suma></p>
+            <p>Kiekvienam!</p>
+        </Div>
+
+    </div>
+
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
