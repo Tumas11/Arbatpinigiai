@@ -9,7 +9,7 @@ body{
     /* text-align: center; */
 }
 .container{
-    width: 50%;
+    width: 35%;
     border-radius: 20px;
     background-color: white;
     margin: 2vh auto;
@@ -58,4 +58,23 @@ border-bottom-right-radius: 20px;
 }
 .rodyti{
     display: block;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 50%;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 70%;
+    }
+
+}
+@media (max-width: 768px) {
+    .container{
+        width: 95%;
+    }
+    .langelis {
+        width: 7em;
+    }
 }
